@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PA1
 {
@@ -10,6 +6,10 @@ namespace PA1
     {
         static void Main(string[] args)
         {
+            EncryptWord ew = new EncryptWord("Salad", 6);
+            
+            Console.WriteLine(ew.getEncryptedWord());
+            Console.ReadKey();
         }
     }
 }
